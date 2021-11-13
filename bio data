@@ -1,0 +1,7 @@
+int main()
+{
+    printf("my name\n");                                       // 1st line, 1st column
+    printf("\t father name\n\n\n");                            // 2nd line, 9th column
+    printf("      mother name\n\n\n");                         // 5th line, 7th column
+    printf("\t\t  Address");                                   // 8th line, 19th column
+}
