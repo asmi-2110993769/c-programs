@@ -1,0 +1,21 @@
+int main()
+{
+    int choice,a,b,c,max;
+    printf("enter your choice: 2, 3");
+    scanf("%d",&choice);
+    switch(choice)
+    {
+        case 2:
+            printf("enter a,b:");
+            scanf("%d%d",&a,&b);
+            max=(a>b?a:b);
+            printf("%d is greater",max);
+            break;
+        case 3:
+            printf("enter a,b,c:");
+            scanf("%d%d%d",&a,&b,&c);
+            max=(a>b&&a>c?a:(b>c?b:c));
+            printf("%d is greater",max);
+            break;
+    }
+}
