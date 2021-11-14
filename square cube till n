@@ -1,0 +1,12 @@
+int main()
+{
+    int n,sq,cube,i;
+    printf("enter the number");
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    {
+        sq=i*i;
+        cube=i*i*i;
+        printf("%i-> %i %i\n",i,sq,cube);
+    }
+}
