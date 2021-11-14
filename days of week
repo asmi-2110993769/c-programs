@@ -1,30 +1,31 @@
 int main()
 {
-    int a,b,c,d,max;
-    printf("enter a,b,c,d:");
-    scanf("%d%d%d%d",&a,&b,&c,&d);
- {
-    if (a >b)
+    int choice;
+    printf("enter choice:1,2,3,4,5,6,7");
+    scanf("%d",&choice);
+    switch(choice)
     {
-        if(a>c)
-        {
-            if(a>d)
-            max = a;
-            else
-            max=d;
-        }
-        else
-        {
-            if(c>d)
-            max = c;
-            else
-            max = d;
-        }
-        else if(b>c)
-        {
-            if(b>d)
-            max = b;
-            else
-            max = d;
-        }
-        
+        case 1:
+            printf("Monday\n");
+        break;
+        case 2:
+            printf("TUeday\n");
+        break;
+        case 3:
+            printf("wednesday\n");
+        break;
+        case 4:
+            printf("thurday\n");
+        break;
+        case 5:
+            printf("Friday\n");
+        break;
+        case 6:
+            printf("saturday\n");
+        break;
+        case 7:
+            printf("Sunday\n");
+        break;
+    }
+}
+
