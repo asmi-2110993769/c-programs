@@ -1,0 +1,21 @@
+//total and percentage of marks
+//T=p+c+m
+//P=T/t*100
+
+
+int main()
+{
+    float T,P,p,c,m,t;
+    printf("enter physics marks:%f\n");
+    scanf("%f",&p);
+    printf("enter chem marks:%f\n");
+    scanf("%f",&c);
+    printf("enter maths marks:%f\n");
+    scanf("%f",&m);
+    printf("enter maximum marks:%f\n");
+    scanf("%f",&t);
+    T=p+c+m;
+    P=T/t*100;
+    printf("sum:%f\n",T);
+    printf("percentage:%f\n",P);
+}
