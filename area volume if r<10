@@ -1,0 +1,18 @@
+int main()
+{
+    float r,a,v,h;
+    printf("\n enter radius:");
+    scanf("%f",&r);
+    if(r<10)
+    {
+        a=3.14*r*r;
+        printf("area is:%f",a);
+    }
+    else
+    {
+        printf("\n enter height:");
+        scanf("%f",&h);
+        v=3.14*r*r*h;
+        printf("\nvolume is:%f",v);
+    }
+}
