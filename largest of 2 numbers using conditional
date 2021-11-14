@@ -1,0 +1,10 @@
+//largest of 2 numbers
+
+int main()
+{
+    int a,b,max;
+    printf("enter value of a and b:");
+    scanf("%d%d",&a,&b);
+    max=(a>b?a:b);
+    printf("largest is %d",max);
+}
