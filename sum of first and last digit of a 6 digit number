@@ -1,0 +1,12 @@
+//sum of first and last digit of a 6 digit number
+
+
+int main()
+{
+    int n,r1,r2,sum;
+    printf("enter a 6 digit number of your choice:");
+    scanf("%d",&n);
+    r1=n%10;
+    n=n/100000;
+    printf("sum is:%d\n",r1+n);
+}
