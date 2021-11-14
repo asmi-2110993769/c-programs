@@ -1,0 +1,17 @@
+//total and average price
+//sum=a+b+c 
+//average=(a+b+c)/3 
+int main()
+{
+    float a,b,c,s,A;
+    printf("laptop price:\n");
+    scanf("%f",&a);
+    printf("mobile price:\n");
+    scanf("%f",&b);
+    printf("book price:\n");
+    scanf("%f",&c);
+    s=a+b+c;
+    printf("sum:%f\n",s);
+    A=s/3;
+    printf("average:%f\n",A);
+}
