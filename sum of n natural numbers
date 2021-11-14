@@ -1,0 +1,12 @@
+int main()
+{
+    int n,sum,c;
+    printf("enter value of n:");
+    scanf("%i",&n);
+    sum=0;
+    for(c=1;c<=n;c++)
+    {
+        sum=sum+c;
+    }
+    printf("sum of n natural numbers is:%i",sum);
+}
