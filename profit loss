@@ -1,0 +1,17 @@
+int main()
+{
+    int cp,sp,l,p;
+    printf("enter cost price and selling price:");
+    scanf("%d%d",&cp,&sp);
+    if (sp>cp)
+    {
+        p=sp-cp;
+        printf("\nprofit is:%d",p);
+    }
+    else 
+    {
+        l=cp-sp;
+        printf("\nloss is:%d",l);
+    }
+}
+
