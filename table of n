@@ -1,0 +1,11 @@
+int main()
+{
+    int n,i,product;
+    printf("enter the number u waant to find table of:");
+    scanf("%i",&n);
+    for(i=1;i<=10;i++)
+    {
+    product=n*i;
+    printf("%i*%i=%i\n",n,i,product);
+    }
+}
