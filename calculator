@@ -1,0 +1,27 @@
+int main()
+{
+  char choice;
+  float a,b;
+  printf("Enter choice (+, -, *, /): ");
+  scanf("%c", &choice);
+  printf("Enter two operands: ");
+  scanf("%f %f", &a, &b);
+  switch (choice)
+  {
+    case '+':
+      printf("%f + %f = %f", a, b, a + b);
+      break;
+    case '-':
+      printf("%f - %f = %f", a, b, a - b);
+      break;
+    case '*':
+      printf("%f * %f = %f", a, b, a * b);
+      break;
+    case '/':
+      printf("%f / %f = %f", a, b, a / b);
+      break;
+    // operator doesn't match any case constant
+    default:
+      printf("Error! operator is not correct");
+  }
+}
