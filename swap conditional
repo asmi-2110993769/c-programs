@@ -1,0 +1,17 @@
+int main()
+{
+    int a,b,c;
+    printf("\n enter value of a and b:");
+    scanf("%d%d",&a,&b);
+    if(a!=b)
+    {
+        c=a;
+        a=b;
+        b=c;
+        printf("\nafter swapping:a=%d,b=%d",a,b);
+    }
+    else
+    {
+        printf("\n numbers are same");
+    }
+}
