@@ -1,0 +1,15 @@
+//MINUTES to valid hour and minutes 
+//hours=MINUTES/60
+//minute=MINUTES%60
+
+
+int main()
+{
+    int MINUTES,h,m;
+    printf("enter MINUTES");
+    scanf("%d",&MINUTES);
+    h=MINUTES/60;
+    m=MINUTES%60;
+    printf("valid hours is; %d\n",h);
+    printf("valid minutes is; %d\n",m);
+}
