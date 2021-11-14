@@ -1,0 +1,19 @@
+int main()
+{
+    int units;
+    float tax,gst,gross,bill,rpu;
+    printf("enter number of units:");
+    scanf("%d",units);
+    if (units<=200)
+        rpu=2;
+        else if (units<=400)
+            rpu=3;
+            else if(units<=600)
+                rpu=4;
+                else
+                    rpu=5;
+    bill=units*rpu;
+    tax=bill*18/100;
+    gross=bill+tax;
+    printf("\ngross=%f",gross);
+}
