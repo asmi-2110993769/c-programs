@@ -1,0 +1,17 @@
+int main()
+{
+    int n,sum,avg,i,price;
+    printf("enter the number of items");
+    scanf("%i",&n);
+    sum=0;
+    for (i=1;i<=n;i++)
+    {
+       printf("enter %i item",i); 
+       scanf("%d",&price);
+       sum=sum+price;
+    }
+    printf("total amount is:%i",sum);
+    avg=sum/n;
+    printf("\naverage is:%i",avg);
+}
+
