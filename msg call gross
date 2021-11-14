@@ -1,0 +1,22 @@
+int main()
+{
+    float msg,call,tax,bill,gross,p,m,c;
+    printf("enter no. of calls and messages:");
+    scanf("%f%f",&msg,&call);
+    if(msg<50)
+    m=.10*msg;
+    else
+    m=.25*msg;
+    if(call<=200)
+    c=.75*call;
+    else
+    c=.95*call;
+    p=m+c;
+    bill=p+100;
+    if (bill<=1000)
+    tax=bill*12.5/100;
+    else
+    tax=bill*22.5/100;
+    gross=bill+tax;
+    printf("gross bill is%f",gross);
+}
