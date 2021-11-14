@@ -1,0 +1,14 @@
+//interchanging constants
+int main()
+{
+    int c,d,e;
+    printf("enter c value:%i\n");
+    scanf("%i",&c);
+    printf("enter d value:%i\n");
+    scanf("%i",&d);
+    e=c;
+    c=d;
+    d=e;
+    printf(" c value:%i\n",c);
+    printf(" d value:%i\n",d);
+}
