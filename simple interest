@@ -1,0 +1,16 @@
+//program for simple interest
+// S=P*R*T/100
+
+
+int main()
+{
+    float S,P,R,T;
+    printf("enter principal amount:");
+    scanf("%f",&P);
+    printf("enter rate:");
+    scanf("%f",&R);
+    printf("enter time:");
+    scanf("%f",&T);
+    S=P*R*T/100;
+    printf("simple interest is: %f",S);
+}
