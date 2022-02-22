@@ -1,0 +1,24 @@
+int main()
+{
+    int i,j,r,c;
+    printf("enter no. of rows and column: ");
+    scanf("%d%d",&r,&c);
+    int m[r][c];
+    for(i=0;i<r;i++)
+    {
+        for(j=0;j<c;j++)
+        {
+            printf("enter element at m[%d][%d]",i,j);
+            scanf("%d",&m[i][j]);
+        }
+    }
+    for (i = 0; i < r; i++)
+    {
+        for (j = 0; j < c; j++)
+        {
+            printf("%d\t", m[i][j]);
+        }
+        printf("\n");
+    }
+}
+
