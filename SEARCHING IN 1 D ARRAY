@@ -1,0 +1,35 @@
+int main()
+{
+    int i,n,wanted,a[i],count=0;
+    printf("enter no. of elements in an array: ");
+    scanf("%d",&n);
+    for(i=0;i<n;i++)
+    {
+        printf("enter element at a[%d]",i);
+        scanf("%d",&a[i]);
+    }
+    printf("\n");
+    for(i=0;i<n;i++)
+    {
+        printf("%d\n",a[i]);
+    }
+    printf("enter the element you want to search: ");
+    scanf("%d",&wanted);
+    for(i=0;i<n;i++)
+    {
+        if(wanted==a[i])
+        {
+        printf("found at a[%d] ",i);
+        count++;
+        }
+        printf("\n");
+    }
+    if (count==0)
+    {
+        printf("not found");
+    }
+    else
+    {
+        printf("found %d times",count);
+    }
+}
