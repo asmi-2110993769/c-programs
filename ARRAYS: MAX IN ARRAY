@@ -1,0 +1,20 @@
+int main()
+{
+    int n,i,max;
+    printf("enter no.of elemets");
+    scanf("%d",&n);
+    int ar[n];
+    for(i=0;i<n;i++)
+    {
+        printf("enter element at ar[%d]");
+        scanf("%d",&ar[i]);
+    }
+    max=ar[0];
+    for(i=0;i<n;i++)
+    {
+        if(max<ar[i])
+        max=ar[i];
+    }
+    printf("\nmax is%d",max);
+}
+   
