@@ -1,0 +1,16 @@
+int main()
+{
+    int r,c,n;
+    printf("enter no. of rows:");
+    scanf("%i",&n);
+    for (r=1;r<=n;r++)
+    {
+        
+        for(c=1;c<=n;c++)
+        {
+            printf("%i",r);
+        }
+        printf("\n");
+    }
+}
+
