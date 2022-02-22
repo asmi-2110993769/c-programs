@@ -1,0 +1,21 @@
+int main()
+{
+    int n,i,sum=0;
+    printf("enter no. of elemnets in array:");
+    scanf("%d",&n);
+    int ar[n];
+    for(i=0;i<n;i++)
+    {
+        printf("enter element at ar[%d]:",i);
+        scanf("%d",&ar[i]);
+        sum=sum+ar[i];
+    }
+    printf("\n");
+    for(i=0;i<n;i++)
+    {
+        printf("%d\n",ar[i]);
+    }
+    printf("sum of elements of array is:%d ",sum);
+    printf("\naverage of elements is:%d",sum/n);
+}
+
