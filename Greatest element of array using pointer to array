@@ -1,0 +1,23 @@
+int main()
+{
+    int n,i,a[n],greatest;
+    printf("enter number of elements of array ");
+    scanf("%d",&n);
+    for (i=0;i<n;i++)
+    {
+        printf("enter element at a[%d]",&i);
+        scanf("%d",&a[i]);
+    }
+    int *ptr=&a[0];
+    printf("\noutput is:\n");
+    for(i=0;i<n;i++)
+    printf("%d\n",a[i]);
+    
+    greatest=a[i];
+    for(i=0;i<n;i++)
+    {
+        if(greatest<a[i])
+            greatest=a[i];
+    }
+    printf("greatest element of array is: %d",greatest);
+}
