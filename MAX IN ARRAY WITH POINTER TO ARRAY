@@ -1,0 +1,20 @@
+int main()
+{
+    int n,*p,m;
+    printf("Enter N: ");
+    scanf("%d",&n);
+    int a[n],i;
+    for(i=0;i<n;i++)
+    {
+        printf("Enter Value Of A[%d]: ",i);
+        scanf("%d",&a[i]);
+    }
+    p=a;
+    m=*p;
+    for(i=0;i<n;i++)
+    {
+        if(m<p[i])
+        m=p[i];
+    }
+    printf("\nMax = %d",m);
+}
