@@ -1,0 +1,32 @@
+int main()
+{
+    int n,i,max,min;
+    printf("enter no. of elemnets in array:");
+    scanf("%d",&n);
+    int ar[n];
+    for(i=0;i<n;i++)
+    {
+        printf("enter element at ar[%d]:",i);
+        scanf("%d",&ar[i]);
+    }
+    printf("\n");
+    for(i=0;i<n;i++)
+    {
+        printf("%d\n",ar[i]);
+    }
+    max=ar[0];
+    for(i=0;i<n;i++)
+    {
+        if (max<ar[i])
+        max=ar[i];
+    }
+    printf("maximum of all elements is:%d ",max);
+    min=ar[0];
+    for(i=0;i<n;i++)
+    {
+        if (min>ar[i])
+        min=ar[i];
+    }
+    printf("\nminimum of all elements is:%d ",min);
+}
+
