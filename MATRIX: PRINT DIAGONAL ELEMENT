@@ -1,0 +1,28 @@
+int main()
+{
+    int n,r,c;
+    printf("enter order of matrix: ");
+    scanf("%d",&n);
+    int m[n][n];
+    for(r=0;r<n;r++)
+    {
+        for(c=0;c<n;c++)
+        {
+            printf("enter element at m[%d][%d]",r,c);
+            scanf("%d",&m[r][c]);
+        }
+        printf("\n");
+    }
+    for(r=0;r<n;r++)
+    {
+        for(c=0;c<n;c++)
+        {
+            if(r==c)
+            printf("%d\t",m[r][c]);
+            else
+            printf("*\t");
+        }
+        printf("\n");
+    }
+}
+
