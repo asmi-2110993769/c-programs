@@ -1,0 +1,24 @@
+int main()
+{
+    int n,c=0,s,i,*p;
+    printf("Enter N: ");
+    scanf("%d",&n);
+    int a[n];
+    for(i=0;i<n;i++)
+    {
+        printf("Enter Value Of A[%d] : ",i);
+        scanf("%d",&s);
+    }
+    for(i=0;i<n;i++)
+    {
+        if(s==p[i])
+        {
+            c++;
+            printf("Found At A[%d]\n",i);
+        }
+    }
+    if(c==0)
+    printf("\nNot Found");
+    else
+    printf("\nFound %d Times",c);
+}
